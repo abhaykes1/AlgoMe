@@ -1,0 +1,1 @@
+export const SELECTED_PROGRAM = 'SELECTED_PROGRAM';

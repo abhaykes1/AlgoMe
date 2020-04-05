@@ -1,2 +1,5 @@
 # AlgoMe
-A full stack application to run your favourite Algorithm.
+A full stack application to run your favorite Algorithm.
+
+under developing...
+

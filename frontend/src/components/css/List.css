@@ -1,0 +1,22 @@
+.rootListContainer{
+    width: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+}
+.listContainer{
+    width: 100%;
+    background-image: linear-gradient(to right, #f2f2f2 , #29648A);
+}
+.listButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+
