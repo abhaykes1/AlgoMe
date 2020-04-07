@@ -65,11 +65,7 @@ function List() {
               <div style={{backgroundColor:Colors.primary}} className="collapsible-header" onClick={handleChangeArray}><i className="material-icons">panorama_fish_eye</i>Array</div>
               <div className="collapsible-body" >
                 <ListButton in={checkedArray} timeout={1000} title="Sum" click={()=>onClickHandler('sum')} />
-                <ListButton in={checkedArray} timeout={1100} title="Maximum" click={()=>onClickHandler('max')}/>
-                <ListButton in={checkedArray} timeout={1200} title="passed" />
-                <ListButton in={checkedArray} timeout={1300} title="passed" />
-                <ListButton in={checkedArray} timeout={1400} title="passed" />
-                <ListButton in={checkedArray} timeout={1500} title="passed" />                 
+                <ListButton in={checkedArray} timeout={1100} title="Maximum" click={()=>onClickHandler('max')}/>              
               </div>
             </li>
             <li>

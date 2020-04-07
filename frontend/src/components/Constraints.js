@@ -7,6 +7,7 @@ export default function Constraints(props) {
     const program = props.program;
     return (
         <div className="ConstraintContainer">
+            <h6 style={{color:Colors.primary}}>{program.id}: </h6>
             <h6 style={{color:Colors.primary}}>Input</h6>
             <blockquote>
                 {

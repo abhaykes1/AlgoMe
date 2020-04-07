@@ -10,7 +10,7 @@ export default function ListButton(props) {
   return (
     <Zoom in={props.in} timeout={props.timeout} >
         <div>
-            <button onClick={props.click} style={{width:'70%', color: 'white', backgroundColor: Colors.accent2, margin:1  }} className="waves-effect waves-light btn">{props.title}</button>
+            <button onClick={props.click} style={{width:'70%', color: 'white', backgroundColor: Colors.accent2, margin:1  }} className="waves-light btn">{props.title}</button>
         </div>
     </Zoom>
 
