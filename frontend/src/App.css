@@ -5,7 +5,8 @@
 }
 .App{
   background-image: linear-gradient(to right, #25274D, #29648A);
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 500vh;
 
 }
 .mobile{

@@ -89,7 +89,7 @@ function List() {
             <li>
               <div style={{backgroundColor:Colors.primary}} className="collapsible-header" onClick={handleChangeGraph}><i className="material-icons">panorama_fish_eye</i>Graph</div>
               <div className="collapsible-body" >
-                <ListButton in={checkedGraph} timeout={1000} title="passed" />                
+                <ListButton in={checkedGraph} timeout={1000} title="DFS" click={()=>onClickHandler('graphDFS')} />
               </div>
             </li>
         </ul>

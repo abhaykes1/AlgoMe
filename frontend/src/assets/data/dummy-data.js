@@ -29,4 +29,21 @@ export const INPUT = [
             ' -10^5 <= A_i <= 10^5'
         ]
     ),
+    new Input(
+        'graphDFS',
+        [
+            'First line will contain two space separated integers V, E.',
+            'V is no. of vertex and E is no. of edges in graph.',
+            'The description of E lines follows. Each edge consists of single line containing two integers, u and v. representing edge between vertex u and vertex v',
+            'last line will consist of single integer s(start vertex of graph)'
+        ],
+        [
+            'Output will contain only a single line with V space separated integers.'
+        ],
+        [
+            ' 1 <= V, E <= 10^5',
+            ' 0 <= u, v <= V',
+            ' s in V'
+        ]
+    )
 ]
